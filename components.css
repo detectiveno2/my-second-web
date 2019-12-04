@@ -1,0 +1,52 @@
+body, html {
+	background-color: #F6F6F6;
+}
+
+.header {
+	background-color: #F6F6F6;
+}
+
+.menu {
+	list-style: none;
+	padding: 0px;
+	margin: 8px 0px;
+}
+
+.menu li a:hover {
+	color: #007BFF !important;
+	text-decoration: none;
+}
+
+.extension-list {
+	list-style: none;
+	padding: 0px;
+	margin: 8px 0px;
+}
+
+.sub-menu {
+	list-style: none;
+	margin: 0px 4px;
+}
+
+.sub-menu-wrapper {
+	padding: 1rem 1rem;
+	border-top: 2px solid #303AF7;
+	background-color: #FFF;
+	display: none;
+	left: 1px;
+}
+
+.has-sub-menu:hover .sub-menu-wrapper {
+	display: block;
+	animation-duration: 0.3s;
+  	animation-delay: 0s;
+  	animation-iteration-count: 1;
+}
+
+hr {
+	margin: 15px 20px 15px 7px;
+}
+
+.extension-list a:hover i:not(.fa-plus-circle) {
+	color: #007BFF !important;
+}
